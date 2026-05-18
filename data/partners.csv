@@ -1,0 +1,9 @@
+partner_id,partner_type,segment,primary_product_motion,monthly_business_review_owner,portfolio_scale_index
+P001,SaaS platform,Core,routing controls,product analytics,1.18
+P002,ISO portfolio,Core,routing controls,product manager,1.06
+P003,PayFac program,Strategic,routing controls,product analytics,1.24
+P004,Bank referral,Strategic,merchant portal,support operations,0.92
+P005,Vertical software,Growth,gateway reporting,data insights,1.34
+P006,Marketplace,Growth,ACH expansion,data insights,0.86
+P007,Unattended operator,Watch,gateway reporting,product analytics,0.72
+P008,Healthcare billing,Watch,merchant portal,product manager,0.95

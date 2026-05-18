@@ -1,0 +1,570 @@
+incident_id,opened_date,partner_id,channel,payment_method,processor,issue_type,severity,estimated_transactions_at_risk,estimated_volume_at_risk,owner,status
+INC0001,2026-01-01,P004,in_app,wallet,processor_b,batch settlement delay,medium,3,150.32,product engineering,monitoring
+INC0002,2026-01-01,P005,in_store,ach,processor_d,batch settlement delay,medium,10,819.9,support operations,triage
+INC0003,2026-01-01,P006,in_store,p2p,processor_a,processor latency,low,4,107.96,support operations,fix queued
+INC0004,2026-01-01,P008,online,p2p,processor_b,ledger variance,medium,10,66.58,finance operations,root cause found
+INC0005,2026-01-02,P001,mobile,tokenized_card,processor_a,missing webhook,medium,4,68.07,product engineering,triage
+INC0006,2026-01-02,P002,in_store,wallet,processor_b,processor latency,low,8,244.51,product engineering,triage
+INC0007,2026-01-02,P004,in_store,card,processor_c,ACH return spike,medium,28,1208.6,product engineering,fix queued
+INC0008,2026-01-02,P005,online,p2p,processor_d,ACH return spike,medium,9,100.0,data insights,monitoring
+INC0009,2026-01-02,P005,mobile,p2p,processor_a,ACH return spike,medium,5,57.15,support operations,triage
+INC0010,2026-01-02,P007,in_app,tokenized_card,processor_a,ACH return spike,low,3,106.83,product engineering,fix queued
+INC0011,2026-01-02,P008,mobile,wallet,processor_c,ACH return spike,low,6,66.97,support operations,monitoring
+INC0012,2026-01-03,P001,in_app,card,processor_b,ledger variance,medium,33,1059.67,product engineering,fix queued
+INC0013,2026-01-03,P002,mobile,ach,processor_d,ledger variance,low,6,309.09,product engineering,root cause found
+INC0014,2026-01-03,P002,mobile,tokenized_card,processor_c,duplicate transaction event,medium,2,57.22,data insights,fix queued
+INC0015,2026-01-03,P003,online,ach,processor_c,missing webhook,medium,5,803.6,data insights,triage
+INC0016,2026-01-03,P007,mobile,card,processor_b,missing webhook,low,10,414.27,finance operations,triage
+INC0017,2026-01-04,P001,in_store,ach,processor_d,duplicate transaction event,low,10,691.26,data insights,root cause found
+INC0018,2026-01-04,P001,recurring,wallet,processor_c,missing webhook,medium,5,184.32,finance operations,fix queued
+INC0019,2026-01-04,P002,in_store,ach,processor_d,batch settlement delay,low,4,194.78,product engineering,root cause found
+INC0020,2026-01-04,P005,in_app,p2p,processor_c,duplicate transaction event,low,1,71.84,finance operations,root cause found
+INC0021,2026-01-04,P006,recurring,ach,processor_d,ledger variance,low,2,140.98,support operations,triage
+INC0022,2026-01-05,P004,in_store,p2p,processor_a,duplicate transaction event,medium,6,99.84,finance operations,triage
+INC0023,2026-01-06,P001,mobile,tokenized_card,processor_a,processor latency,medium,4,107.92,support operations,triage
+INC0024,2026-01-06,P002,online,p2p,processor_b,ledger variance,medium,3,379.45,finance operations,fix queued
+INC0025,2026-01-06,P002,in_store,ach,processor_d,processor latency,low,7,172.76,finance operations,fix queued
+INC0026,2026-01-06,P004,unattended,wallet,processor_c,duplicate transaction event,low,2,57.5,product engineering,fix queued
+INC0027,2026-01-06,P006,mobile,card,processor_a,duplicate transaction event,medium,20,302.92,product engineering,fix queued
+INC0028,2026-01-06,P008,online,p2p,processor_c,ledger variance,low,7,240.65,support operations,monitoring
+INC0029,2026-01-07,P003,online,p2p,processor_a,processor latency,low,5,342.11,product engineering,triage
+INC0030,2026-01-07,P004,online,p2p,processor_b,batch settlement delay,medium,8,112.15,data insights,fix queued
+INC0031,2026-01-07,P004,unattended,tokenized_card,processor_a,ACH return spike,low,4,17.39,data insights,root cause found
+INC0032,2026-01-07,P006,in_app,p2p,processor_a,ledger variance,low,5,63.93,product engineering,monitoring
+INC0033,2026-01-08,P002,mobile,ach,processor_c,missing webhook,low,8,155.07,data insights,fix queued
+INC0034,2026-01-08,P002,recurring,card,processor_a,duplicate transaction event,low,2,287.85,finance operations,root cause found
+INC0035,2026-01-08,P007,in_store,ach,processor_d,batch settlement delay,medium,8,161.75,data insights,root cause found
+INC0036,2026-01-09,P001,in_app,ach,processor_d,duplicate transaction event,low,10,574.78,data insights,monitoring
+INC0037,2026-01-09,P006,online,tokenized_card,processor_a,ledger variance,medium,2,177.0,support operations,triage
+INC0038,2026-01-09,P006,unattended,tokenized_card,processor_b,processor latency,medium,4,77.96,finance operations,root cause found
+INC0039,2026-01-11,P002,recurring,wallet,processor_b,duplicate transaction event,medium,3,229.02,finance operations,monitoring
+INC0040,2026-01-11,P004,online,p2p,processor_a,ledger variance,low,6,197.02,product engineering,fix queued
+INC0041,2026-01-11,P004,in_store,ach,processor_d,batch settlement delay,medium,12,213.07,data insights,monitoring
+INC0042,2026-01-11,P004,mobile,card,processor_c,batch settlement delay,medium,13,132.61,finance operations,monitoring
+INC0043,2026-01-11,P004,recurring,wallet,processor_d,batch settlement delay,medium,6,55.09,product engineering,monitoring
+INC0044,2026-01-11,P006,recurring,card,processor_b,missing webhook,low,3,69.07,data insights,root cause found
+INC0045,2026-01-12,P001,online,card,processor_a,batch settlement delay,low,42,913.6,support operations,triage
+INC0046,2026-01-12,P004,in_app,ach,processor_c,duplicate transaction event,medium,8,302.07,product engineering,triage
+INC0047,2026-01-12,P004,mobile,tokenized_card,processor_c,processor latency,low,5,133.51,product engineering,monitoring
+INC0048,2026-01-12,P004,recurring,ach,processor_b,missing webhook,low,2,435.27,finance operations,triage
+INC0049,2026-01-12,P005,in_app,card,processor_b,batch settlement delay,medium,30,1406.28,data insights,fix queued
+INC0050,2026-01-12,P005,recurring,card,processor_a,batch settlement delay,low,3,129.35,finance operations,fix queued
+INC0051,2026-01-12,P006,in_app,ach,processor_a,duplicate transaction event,medium,5,302.89,product engineering,root cause found
+INC0052,2026-01-12,P007,recurring,wallet,processor_c,ACH return spike,medium,6,64.88,product engineering,monitoring
+INC0053,2026-01-13,P001,unattended,card,processor_a,ledger variance,low,11,134.52,finance operations,monitoring
+INC0054,2026-01-13,P003,online,tokenized_card,processor_a,batch settlement delay,medium,6,436.67,support operations,root cause found
+INC0055,2026-01-13,P003,mobile,wallet,processor_b,batch settlement delay,low,2,120.48,support operations,monitoring
+INC0056,2026-01-13,P004,online,ach,processor_b,ledger variance,medium,5,1125.93,finance operations,fix queued
+INC0057,2026-01-13,P008,online,wallet,processor_c,duplicate transaction event,medium,20,601.29,product engineering,root cause found
+INC0058,2026-01-14,P001,in_store,card,processor_d,missing webhook,low,41,1837.8,finance operations,root cause found
+INC0059,2026-01-14,P004,online,tokenized_card,processor_d,ACH return spike,medium,2,276.19,finance operations,triage
+INC0060,2026-01-14,P004,mobile,ach,processor_d,duplicate transaction event,medium,7,148.65,support operations,fix queued
+INC0061,2026-01-14,P006,unattended,card,processor_d,duplicate transaction event,low,9,59.71,product engineering,triage
+INC0062,2026-01-14,P007,online,card,processor_b,ACH return spike,medium,61,1165.14,data insights,triage
+INC0063,2026-01-14,P007,in_app,ach,processor_d,processor latency,low,1,258.69,data insights,monitoring
+INC0064,2026-01-14,P008,in_store,p2p,processor_d,processor latency,medium,4,65.65,support operations,root cause found
+INC0065,2026-01-15,P001,mobile,wallet,processor_a,batch settlement delay,low,4,158.84,support operations,fix queued
+INC0066,2026-01-15,P002,mobile,p2p,processor_b,missing webhook,medium,4,49.13,product engineering,fix queued
+INC0067,2026-01-15,P003,mobile,wallet,processor_a,duplicate transaction event,medium,10,82.55,data insights,root cause found
+INC0068,2026-01-15,P007,in_app,ach,processor_c,ACH return spike,low,2,559.24,product engineering,monitoring
+INC0069,2026-01-15,P007,recurring,tokenized_card,processor_b,batch settlement delay,low,6,141.16,finance operations,monitoring
+INC0070,2026-01-16,P001,online,p2p,processor_a,duplicate transaction event,low,10,297.89,data insights,fix queued
+INC0071,2026-01-16,P001,online,wallet,processor_a,duplicate transaction event,medium,24,888.96,finance operations,triage
+INC0072,2026-01-16,P004,online,p2p,processor_c,missing webhook,low,2,241.01,product engineering,triage
+INC0073,2026-01-16,P004,mobile,wallet,processor_a,processor latency,medium,1,123.05,finance operations,triage
+INC0074,2026-01-16,P006,recurring,card,processor_a,batch settlement delay,low,9,377.44,support operations,fix queued
+INC0075,2026-01-17,P001,in_app,wallet,processor_c,ledger variance,low,11,259.25,product engineering,triage
+INC0076,2026-01-17,P004,in_store,card,processor_a,processor latency,low,33,359.38,support operations,root cause found
+INC0077,2026-01-17,P005,in_app,wallet,processor_c,ACH return spike,low,11,375.81,product engineering,fix queued
+INC0078,2026-01-17,P005,unattended,wallet,processor_a,ACH return spike,medium,1,27.81,support operations,fix queued
+INC0079,2026-01-18,P001,in_store,ach,processor_a,ledger variance,medium,14,805.04,support operations,triage
+INC0080,2026-01-18,P004,in_app,tokenized_card,processor_b,ledger variance,low,3,62.55,finance operations,root cause found
+INC0081,2026-01-18,P006,online,tokenized_card,processor_a,ACH return spike,medium,4,184.03,finance operations,fix queued
+INC0082,2026-01-18,P006,in_store,p2p,processor_b,batch settlement delay,medium,1,52.95,finance operations,fix queued
+INC0083,2026-01-19,P001,recurring,wallet,processor_a,ACH return spike,medium,4,179.17,support operations,triage
+INC0084,2026-01-19,P002,online,tokenized_card,processor_c,processor latency,low,4,367.28,finance operations,root cause found
+INC0085,2026-01-19,P007,in_store,ach,processor_a,duplicate transaction event,medium,2,438.92,support operations,root cause found
+INC0086,2026-01-19,P008,online,ach,processor_c,batch settlement delay,low,4,1343.59,data insights,root cause found
+INC0087,2026-01-20,P002,in_store,ach,processor_d,missing webhook,medium,13,527.1,data insights,monitoring
+INC0088,2026-01-20,P004,in_app,ach,processor_a,ACH return spike,low,10,706.14,finance operations,triage
+INC0089,2026-01-20,P006,online,ach,processor_d,batch settlement delay,low,10,657.93,support operations,root cause found
+INC0090,2026-01-20,P006,in_app,p2p,processor_b,ACH return spike,medium,2,105.55,product engineering,fix queued
+INC0091,2026-01-20,P007,mobile,ach,processor_a,missing webhook,low,6,120.41,support operations,monitoring
+INC0092,2026-01-20,P008,in_app,card,processor_a,ledger variance,low,33,1234.62,data insights,monitoring
+INC0093,2026-01-21,P004,in_app,wallet,processor_a,ledger variance,low,4,107.36,data insights,triage
+INC0094,2026-01-21,P006,in_store,card,processor_a,duplicate transaction event,low,49,1312.72,data insights,triage
+INC0095,2026-01-21,P006,mobile,ach,processor_c,ACH return spike,medium,6,410.65,support operations,monitoring
+INC0096,2026-01-21,P007,in_store,wallet,processor_a,ACH return spike,medium,4,108.74,support operations,triage
+INC0097,2026-01-21,P007,mobile,wallet,processor_d,ACH return spike,medium,6,48.88,product engineering,monitoring
+INC0098,2026-01-22,P002,recurring,card,processor_b,duplicate transaction event,medium,15,640.41,product engineering,monitoring
+INC0099,2026-01-22,P003,unattended,card,processor_b,duplicate transaction event,medium,9,243.48,support operations,fix queued
+INC0100,2026-01-22,P005,in_app,ach,processor_a,duplicate transaction event,medium,11,416.56,finance operations,triage
+INC0101,2026-01-23,P003,in_app,ach,processor_a,missing webhook,medium,13,932.42,data insights,root cause found
+INC0102,2026-01-23,P006,mobile,wallet,processor_a,ledger variance,low,4,63.99,data insights,root cause found
+INC0103,2026-01-23,P007,online,ach,processor_d,batch settlement delay,low,8,1123.87,data insights,root cause found
+INC0104,2026-01-23,P007,recurring,ach,processor_c,duplicate transaction event,low,1,128.42,finance operations,fix queued
+INC0105,2026-01-23,P008,in_store,card,processor_c,processor latency,low,27,997.79,product engineering,monitoring
+INC0106,2026-01-24,P001,in_store,ach,processor_c,duplicate transaction event,low,6,506.39,data insights,root cause found
+INC0107,2026-01-24,P003,in_store,ach,processor_a,batch settlement delay,medium,12,428.4,data insights,fix queued
+INC0108,2026-01-24,P004,in_store,tokenized_card,processor_d,ACH return spike,low,2,122.85,finance operations,root cause found
+INC0109,2026-01-24,P005,mobile,ach,processor_a,ledger variance,low,2,206.17,product engineering,triage
+INC0110,2026-01-24,P008,unattended,wallet,processor_c,duplicate transaction event,medium,6,40.83,support operations,monitoring
+INC0111,2026-01-25,P005,in_app,card,processor_a,ledger variance,low,38,539.95,finance operations,monitoring
+INC0112,2026-01-25,P007,recurring,tokenized_card,processor_c,batch settlement delay,medium,2,246.09,data insights,monitoring
+INC0113,2026-01-25,P008,mobile,p2p,processor_c,ledger variance,medium,1,44.21,finance operations,fix queued
+INC0114,2026-01-26,P001,online,card,processor_d,processor latency,medium,34,708.18,data insights,fix queued
+INC0115,2026-01-26,P005,in_app,p2p,processor_a,ACH return spike,medium,3,29.1,support operations,monitoring
+INC0116,2026-01-26,P005,recurring,wallet,processor_c,batch settlement delay,medium,3,64.52,product engineering,root cause found
+INC0117,2026-01-26,P006,mobile,tokenized_card,processor_a,duplicate transaction event,low,2,127.97,data insights,fix queued
+INC0118,2026-01-26,P006,recurring,ach,processor_a,processor latency,low,3,360.3,support operations,fix queued
+INC0119,2026-01-27,P002,in_store,tokenized_card,processor_b,duplicate transaction event,low,4,73.81,data insights,root cause found
+INC0120,2026-01-28,P001,unattended,card,processor_a,processor latency,medium,15,101.59,data insights,monitoring
+INC0121,2026-01-28,P006,in_store,ach,processor_a,duplicate transaction event,medium,11,145.0,finance operations,fix queued
+INC0122,2026-01-28,P007,unattended,card,processor_c,processor latency,medium,4,144.88,support operations,triage
+INC0123,2026-01-31,P001,online,ach,processor_b,duplicate transaction event,medium,14,950.66,finance operations,fix queued
+INC0124,2026-01-31,P001,online,wallet,processor_a,ACH return spike,medium,14,208.42,data insights,monitoring
+INC0125,2026-01-31,P001,in_app,p2p,processor_c,duplicate transaction event,low,5,38.91,support operations,fix queued
+INC0126,2026-01-31,P004,recurring,ach,processor_d,batch settlement delay,low,4,434.84,product engineering,monitoring
+INC0127,2026-01-31,P008,unattended,wallet,processor_b,processor latency,medium,6,44.12,product engineering,triage
+INC0128,2026-02-01,P002,in_app,wallet,processor_c,missing webhook,medium,6,231.96,support operations,triage
+INC0129,2026-02-01,P005,in_store,card,processor_b,missing webhook,medium,47,596.59,data insights,fix queued
+INC0130,2026-02-01,P007,online,tokenized_card,processor_b,ACH return spike,low,5,244.76,finance operations,root cause found
+INC0131,2026-02-01,P008,in_app,wallet,processor_a,missing webhook,medium,7,141.73,product engineering,triage
+INC0132,2026-02-02,P002,recurring,ach,processor_c,missing webhook,low,2,443.59,finance operations,monitoring
+INC0133,2026-02-03,P001,recurring,card,processor_c,processor latency,medium,6,329.44,product engineering,root cause found
+INC0134,2026-02-03,P002,online,p2p,processor_c,batch settlement delay,medium,5,363.72,product engineering,monitoring
+INC0135,2026-02-03,P005,in_store,wallet,processor_a,ACH return spike,low,13,410.24,data insights,root cause found
+INC0136,2026-02-03,P006,online,p2p,processor_c,batch settlement delay,medium,5,235.46,finance operations,fix queued
+INC0137,2026-02-03,P006,mobile,p2p,processor_a,duplicate transaction event,medium,1,95.79,finance operations,monitoring
+INC0138,2026-02-03,P007,online,card,processor_d,ledger variance,low,17,1337.72,support operations,root cause found
+INC0139,2026-02-04,P001,mobile,p2p,processor_a,duplicate transaction event,medium,2,56.74,finance operations,fix queued
+INC0140,2026-02-04,P002,in_store,card,processor_b,missing webhook,low,49,1164.29,data insights,fix queued
+INC0141,2026-02-04,P006,in_store,p2p,processor_c,ACH return spike,medium,6,94.34,product engineering,fix queued
+INC0142,2026-02-05,P003,in_store,wallet,processor_c,processor latency,medium,15,300.46,support operations,root cause found
+INC0143,2026-02-05,P005,unattended,card,processor_a,ACH return spike,low,12,92.65,product engineering,root cause found
+INC0144,2026-02-05,P007,in_app,card,processor_c,processor latency,low,23,688.59,product engineering,root cause found
+INC0145,2026-02-06,P002,in_app,tokenized_card,processor_a,batch settlement delay,low,4,104.38,finance operations,monitoring
+INC0146,2026-02-06,P003,online,tokenized_card,processor_b,duplicate transaction event,low,4,326.32,product engineering,fix queued
+INC0147,2026-02-06,P004,in_store,ach,processor_b,ACH return spike,low,5,133.39,product engineering,fix queued
+INC0148,2026-02-06,P005,in_store,tokenized_card,processor_a,duplicate transaction event,low,2,150.08,finance operations,monitoring
+INC0149,2026-02-06,P005,recurring,ach,processor_c,processor latency,low,1,495.62,data insights,fix queued
+INC0150,2026-02-06,P006,mobile,p2p,processor_b,ACH return spike,medium,2,18.2,support operations,triage
+INC0151,2026-02-06,P007,in_app,p2p,processor_a,missing webhook,low,4,140.42,finance operations,monitoring
+INC0152,2026-02-07,P004,unattended,tokenized_card,processor_c,processor latency,medium,6,57.08,support operations,root cause found
+INC0153,2026-02-07,P005,in_store,p2p,processor_a,missing webhook,low,9,121.71,product engineering,triage
+INC0154,2026-02-07,P005,recurring,wallet,processor_a,missing webhook,medium,2,66.93,support operations,triage
+INC0155,2026-02-07,P008,online,card,processor_a,processor latency,low,62,2298.59,data insights,root cause found
+INC0156,2026-02-07,P008,in_store,ach,processor_a,processor latency,medium,10,125.2,product engineering,root cause found
+INC0157,2026-02-08,P001,recurring,wallet,processor_b,ledger variance,low,2,134.83,data insights,root cause found
+INC0158,2026-02-08,P006,online,tokenized_card,processor_b,missing webhook,low,4,144.23,product engineering,monitoring
+INC0159,2026-02-09,P001,in_store,card,processor_b,batch settlement delay,low,45,978.3,support operations,fix queued
+INC0160,2026-02-09,P001,mobile,card,processor_a,batch settlement delay,low,25,362.35,finance operations,triage
+INC0161,2026-02-09,P005,in_app,tokenized_card,processor_b,processor latency,medium,6,94.35,support operations,monitoring
+INC0162,2026-02-09,P007,mobile,card,processor_d,duplicate transaction event,low,10,464.21,support operations,root cause found
+INC0163,2026-02-09,P008,online,ach,processor_c,ledger variance,low,11,1557.72,data insights,triage
+INC0164,2026-02-10,P001,in_app,wallet,processor_b,ledger variance,medium,6,310.43,product engineering,monitoring
+INC0165,2026-02-10,P001,mobile,tokenized_card,processor_a,duplicate transaction event,medium,4,146.7,support operations,monitoring
+INC0166,2026-02-10,P002,recurring,wallet,processor_c,ACH return spike,low,6,39.59,finance operations,triage
+INC0167,2026-02-10,P004,online,tokenized_card,processor_b,duplicate transaction event,low,3,155.9,data insights,root cause found
+INC0168,2026-02-10,P005,unattended,wallet,processor_b,duplicate transaction event,low,6,56.67,data insights,triage
+INC0169,2026-02-10,P005,recurring,card,processor_a,ledger variance,low,6,770.27,finance operations,monitoring
+INC0170,2026-02-10,P007,recurring,tokenized_card,processor_c,missing webhook,low,3,131.24,data insights,root cause found
+INC0171,2026-02-10,P008,in_app,wallet,processor_a,ACH return spike,medium,3,267.6,finance operations,root cause found
+INC0172,2026-02-10,P008,recurring,ach,processor_a,processor latency,medium,5,508.26,finance operations,root cause found
+INC0173,2026-02-11,P002,online,wallet,processor_b,processor latency,low,9,487.55,support operations,root cause found
+INC0174,2026-02-11,P004,in_store,tokenized_card,processor_d,processor latency,medium,2,87.53,finance operations,monitoring
+INC0175,2026-02-11,P005,in_app,p2p,processor_a,duplicate transaction event,low,5,35.37,data insights,root cause found
+INC0176,2026-02-12,P005,online,wallet,processor_a,batch settlement delay,medium,6,425.66,data insights,fix queued
+INC0177,2026-02-12,P008,in_store,p2p,processor_a,missing webhook,medium,7,62.1,finance operations,triage
+INC0178,2026-02-13,P001,unattended,card,processor_c,ACH return spike,medium,12,65.89,finance operations,monitoring
+INC0179,2026-02-13,P002,unattended,card,processor_c,ledger variance,low,10,82.95,support operations,monitoring
+INC0180,2026-02-13,P003,in_store,tokenized_card,processor_a,duplicate transaction event,medium,3,83.22,finance operations,triage
+INC0181,2026-02-13,P006,mobile,wallet,processor_a,ACH return spike,low,4,65.89,finance operations,triage
+INC0182,2026-02-13,P008,in_app,card,processor_c,processor latency,low,18,564.45,product engineering,root cause found
+INC0183,2026-02-14,P003,in_store,ach,processor_b,processor latency,low,10,179.51,product engineering,triage
+INC0184,2026-02-14,P003,in_store,tokenized_card,processor_b,ACH return spike,low,6,69.01,finance operations,root cause found
+INC0185,2026-02-14,P003,mobile,ach,processor_c,batch settlement delay,low,4,315.06,support operations,triage
+INC0186,2026-02-14,P005,recurring,card,processor_a,ledger variance,low,9,477.11,finance operations,monitoring
+INC0187,2026-02-14,P006,in_app,ach,processor_b,ledger variance,medium,4,184.41,finance operations,root cause found
+INC0188,2026-02-14,P007,in_app,p2p,processor_d,processor latency,low,2,108.89,data insights,fix queued
+INC0189,2026-02-14,P007,recurring,ach,processor_a,ledger variance,medium,5,196.74,data insights,fix queued
+INC0190,2026-02-15,P002,in_store,ach,processor_b,ACH return spike,low,3,233.22,support operations,triage
+INC0191,2026-02-15,P003,mobile,p2p,processor_c,processor latency,low,5,45.97,product engineering,root cause found
+INC0192,2026-02-15,P004,in_app,card,processor_b,batch settlement delay,low,9,425.47,support operations,triage
+INC0193,2026-02-15,P007,in_store,wallet,processor_c,missing webhook,medium,4,59.16,support operations,monitoring
+INC0194,2026-02-16,P001,unattended,wallet,processor_a,batch settlement delay,low,4,59.14,support operations,triage
+INC0195,2026-02-16,P004,online,card,processor_d,duplicate transaction event,medium,42,2874.62,support operations,monitoring
+INC0196,2026-02-16,P005,mobile,p2p,processor_a,ledger variance,low,1,83.69,finance operations,monitoring
+INC0197,2026-02-16,P007,in_app,p2p,processor_a,processor latency,medium,3,30.19,support operations,triage
+INC0198,2026-02-16,P007,mobile,card,processor_b,processor latency,low,3,295.15,product engineering,monitoring
+INC0199,2026-02-17,P001,unattended,tokenized_card,processor_b,ACH return spike,medium,4,43.87,data insights,fix queued
+INC0200,2026-02-17,P007,online,p2p,processor_d,processor latency,low,7,135.64,data insights,fix queued
+INC0201,2026-02-18,P001,online,tokenized_card,processor_a,missing webhook,medium,8,410.05,data insights,triage
+INC0202,2026-02-18,P002,mobile,wallet,processor_a,duplicate transaction event,low,2,50.03,finance operations,root cause found
+INC0203,2026-02-18,P007,in_store,p2p,processor_d,processor latency,low,2,49.27,finance operations,root cause found
+INC0204,2026-02-19,P001,mobile,wallet,processor_b,processor latency,low,8,172.9,data insights,monitoring
+INC0205,2026-02-19,P004,mobile,p2p,processor_a,batch settlement delay,medium,3,26.78,product engineering,triage
+INC0206,2026-02-19,P006,recurring,wallet,processor_a,batch settlement delay,medium,2,124.55,finance operations,root cause found
+INC0207,2026-02-19,P008,mobile,card,processor_a,ledger variance,medium,18,522.96,data insights,root cause found
+INC0208,2026-02-20,P004,online,tokenized_card,processor_a,ACH return spike,medium,3,268.32,support operations,fix queued
+INC0209,2026-02-20,P004,in_store,wallet,processor_d,duplicate transaction event,low,9,154.12,product engineering,triage
+INC0210,2026-02-20,P005,online,card,processor_b,missing webhook,medium,47,2513.23,product engineering,fix queued
+INC0211,2026-02-20,P005,in_store,wallet,processor_c,batch settlement delay,low,4,313.72,data insights,triage
+INC0212,2026-02-20,P006,in_store,ach,processor_b,ledger variance,medium,6,508.18,finance operations,root cause found
+INC0213,2026-02-21,P001,in_app,card,processor_c,ledger variance,medium,24,972.26,product engineering,fix queued
+INC0214,2026-02-21,P001,unattended,tokenized_card,processor_a,ledger variance,low,2,51.95,product engineering,monitoring
+INC0215,2026-02-21,P002,online,tokenized_card,processor_d,batch settlement delay,low,3,276.0,data insights,fix queued
+INC0216,2026-02-21,P002,mobile,ach,processor_c,ACH return spike,low,4,136.98,data insights,monitoring
+INC0217,2026-02-21,P004,in_app,tokenized_card,processor_a,processor latency,low,2,162.83,support operations,triage
+INC0218,2026-02-21,P006,in_store,card,processor_b,ledger variance,low,45,257.97,support operations,fix queued
+INC0219,2026-02-21,P008,in_store,p2p,processor_c,processor latency,medium,6,54.81,product engineering,root cause found
+INC0220,2026-02-21,P008,unattended,tokenized_card,processor_b,ACH return spike,medium,5,34.46,data insights,triage
+INC0221,2026-02-22,P006,in_store,card,processor_a,ledger variance,low,15,598.92,data insights,root cause found
+INC0222,2026-02-23,P002,in_app,ach,processor_c,missing webhook,medium,3,733.39,data insights,fix queued
+INC0223,2026-02-23,P005,in_app,ach,processor_b,ledger variance,low,8,582.32,data insights,root cause found
+INC0224,2026-02-23,P007,mobile,wallet,processor_a,ACH return spike,low,3,84.97,finance operations,root cause found
+INC0225,2026-02-24,P001,in_store,p2p,processor_c,ACH return spike,medium,5,55.62,product engineering,fix queued
+INC0226,2026-02-24,P003,online,card,processor_c,duplicate transaction event,medium,75,5220.21,data insights,triage
+INC0227,2026-02-24,P007,online,tokenized_card,processor_c,processor latency,low,4,312.68,finance operations,triage
+INC0228,2026-02-25,P002,in_store,ach,processor_c,processor latency,low,6,625.25,finance operations,fix queued
+INC0229,2026-02-25,P004,in_store,tokenized_card,processor_a,ACH return spike,low,3,79.52,finance operations,root cause found
+INC0230,2026-02-25,P005,recurring,tokenized_card,processor_c,missing webhook,medium,5,236.69,product engineering,triage
+INC0231,2026-02-26,P002,online,p2p,processor_c,missing webhook,low,5,108.8,finance operations,triage
+INC0232,2026-02-26,P004,in_store,wallet,processor_b,ledger variance,medium,13,99.04,data insights,monitoring
+INC0233,2026-02-27,P001,recurring,wallet,processor_c,ACH return spike,medium,6,58.41,product engineering,monitoring
+INC0234,2026-02-27,P002,online,wallet,processor_c,batch settlement delay,low,15,620.92,data insights,triage
+INC0235,2026-02-27,P006,online,p2p,processor_a,ACH return spike,medium,4,93.49,finance operations,root cause found
+INC0236,2026-02-27,P006,in_app,tokenized_card,processor_c,duplicate transaction event,low,3,244.8,product engineering,triage
+INC0237,2026-02-28,P001,in_store,ach,processor_d,ACH return spike,high,9,722.58,support operations,fix queued
+INC0238,2026-02-28,P003,recurring,ach,processor_d,ACH return spike,high,3,462.24,product engineering,fix queued
+INC0239,2026-02-28,P004,in_store,ach,processor_d,duplicate transaction event,high,8,661.56,product engineering,triage
+INC0240,2026-03-01,P001,recurring,wallet,processor_c,ledger variance,medium,6,108.21,data insights,fix queued
+INC0241,2026-03-01,P002,online,wallet,processor_c,ACH return spike,low,15,421.01,data insights,monitoring
+INC0242,2026-03-01,P002,in_app,card,processor_a,ACH return spike,medium,36,473.76,product engineering,fix queued
+INC0243,2026-03-01,P002,recurring,ach,processor_d,duplicate transaction event,high,6,330.13,data insights,triage
+INC0244,2026-03-01,P003,recurring,wallet,processor_a,processor latency,medium,4,206.28,data insights,fix queued
+INC0245,2026-03-01,P004,in_app,ach,processor_d,duplicate transaction event,high,8,290.14,product engineering,monitoring
+INC0246,2026-03-01,P004,in_store,wallet,processor_d,batch settlement delay,low,4,157.89,support operations,triage
+INC0247,2026-03-01,P006,mobile,p2p,processor_c,processor latency,medium,2,60.77,product engineering,root cause found
+INC0248,2026-03-01,P008,online,ach,processor_d,duplicate transaction event,high,8,505.28,data insights,monitoring
+INC0249,2026-03-01,P008,in_store,ach,processor_d,missing webhook,high,7,609.99,product engineering,fix queued
+INC0250,2026-03-01,P008,mobile,tokenized_card,processor_c,duplicate transaction event,medium,2,128.58,support operations,fix queued
+INC0251,2026-03-02,P001,mobile,ach,processor_d,missing webhook,high,3,315.64,support operations,triage
+INC0252,2026-03-02,P002,online,ach,processor_d,missing webhook,high,8,985.54,data insights,monitoring
+INC0253,2026-03-02,P002,unattended,card,processor_b,processor latency,medium,10,149.3,support operations,triage
+INC0254,2026-03-02,P003,online,ach,processor_b,missing webhook,medium,8,753.62,product engineering,monitoring
+INC0255,2026-03-02,P003,recurring,ach,processor_d,duplicate transaction event,high,3,538.74,product engineering,triage
+INC0256,2026-03-02,P005,in_app,tokenized_card,processor_d,ledger variance,medium,4,56.96,support operations,root cause found
+INC0257,2026-03-02,P007,recurring,ach,processor_b,duplicate transaction event,low,3,143.28,data insights,root cause found
+INC0258,2026-03-02,P008,in_app,wallet,processor_a,missing webhook,medium,7,175.44,finance operations,root cause found
+INC0259,2026-03-02,P008,in_app,tokenized_card,processor_a,batch settlement delay,medium,4,110.12,finance operations,monitoring
+INC0260,2026-03-03,P001,in_store,ach,processor_d,ACH return spike,high,5,527.49,support operations,root cause found
+INC0261,2026-03-03,P003,online,wallet,processor_b,ledger variance,low,14,441.12,product engineering,fix queued
+INC0262,2026-03-03,P003,in_app,p2p,processor_c,duplicate transaction event,low,4,88.09,support operations,triage
+INC0263,2026-03-03,P003,mobile,ach,processor_b,ACH return spike,low,9,350.44,support operations,monitoring
+INC0264,2026-03-03,P005,in_store,tokenized_card,processor_b,batch settlement delay,medium,2,82.03,support operations,monitoring
+INC0265,2026-03-03,P005,mobile,ach,processor_d,missing webhook,high,9,463.26,data insights,monitoring
+INC0266,2026-03-03,P006,unattended,card,processor_c,batch settlement delay,low,12,153.98,product engineering,monitoring
+INC0267,2026-03-03,P007,online,p2p,processor_c,batch settlement delay,low,8,173.19,data insights,root cause found
+INC0268,2026-03-03,P008,in_app,ach,processor_d,batch settlement delay,high,8,319.62,finance operations,monitoring
+INC0269,2026-03-03,P008,recurring,tokenized_card,processor_b,duplicate transaction event,medium,2,132.16,finance operations,monitoring
+INC0270,2026-03-04,P004,in_app,p2p,processor_c,batch settlement delay,low,4,113.22,support operations,root cause found
+INC0271,2026-03-04,P005,online,ach,processor_d,batch settlement delay,high,18,1350.66,finance operations,root cause found
+INC0272,2026-03-04,P006,online,ach,processor_d,duplicate transaction event,high,9,1216.55,finance operations,monitoring
+INC0273,2026-03-04,P007,online,wallet,processor_c,ledger variance,medium,8,474.02,product engineering,triage
+INC0274,2026-03-04,P007,in_app,ach,processor_d,processor latency,high,7,599.66,support operations,root cause found
+INC0275,2026-03-04,P007,in_app,tokenized_card,processor_c,duplicate transaction event,medium,6,161.08,data insights,triage
+INC0276,2026-03-04,P008,online,ach,processor_d,batch settlement delay,high,23,2022.19,data insights,monitoring
+INC0277,2026-03-05,P003,recurring,ach,processor_d,ACH return spike,high,1,183.0,support operations,monitoring
+INC0278,2026-03-05,P004,in_app,ach,processor_d,duplicate transaction event,high,3,625.69,data insights,monitoring
+INC0279,2026-03-05,P007,in_app,ach,processor_d,batch settlement delay,high,1,388.84,product engineering,monitoring
+INC0280,2026-03-05,P007,mobile,tokenized_card,processor_a,duplicate transaction event,low,1,116.61,data insights,monitoring
+INC0281,2026-03-05,P007,unattended,card,processor_c,batch settlement delay,low,6,31.97,finance operations,monitoring
+INC0282,2026-03-05,P007,recurring,ach,processor_d,missing webhook,high,5,146.94,data insights,triage
+INC0283,2026-03-05,P008,in_app,ach,processor_d,missing webhook,high,8,317.93,data insights,monitoring
+INC0284,2026-03-06,P001,mobile,ach,processor_d,processor latency,high,2,104.32,product engineering,root cause found
+INC0285,2026-03-06,P003,in_store,p2p,processor_c,missing webhook,medium,2,90.72,finance operations,fix queued
+INC0286,2026-03-06,P004,online,card,processor_b,duplicate transaction event,low,22,935.2,product engineering,fix queued
+INC0287,2026-03-06,P004,in_app,ach,processor_d,batch settlement delay,high,2,394.94,support operations,triage
+INC0288,2026-03-06,P004,mobile,ach,processor_d,ACH return spike,high,5,333.97,product engineering,fix queued
+INC0289,2026-03-06,P007,recurring,tokenized_card,processor_b,processor latency,low,5,208.02,product engineering,triage
+INC0290,2026-03-06,P008,recurring,ach,processor_d,ACH return spike,high,5,458.13,product engineering,triage
+INC0291,2026-03-07,P001,mobile,ach,processor_d,ACH return spike,high,2,187.4,support operations,root cause found
+INC0292,2026-03-07,P002,in_app,wallet,processor_a,processor latency,low,7,173.83,finance operations,root cause found
+INC0293,2026-03-07,P003,in_store,ach,processor_d,processor latency,high,14,948.38,data insights,triage
+INC0294,2026-03-07,P004,mobile,p2p,processor_b,missing webhook,medium,5,75.63,product engineering,triage
+INC0295,2026-03-07,P006,online,card,processor_c,batch settlement delay,medium,24,3351.91,product engineering,fix queued
+INC0296,2026-03-07,P006,online,tokenized_card,processor_a,batch settlement delay,low,2,210.84,product engineering,triage
+INC0297,2026-03-07,P006,in_store,tokenized_card,processor_b,processor latency,medium,2,96.39,data insights,monitoring
+INC0298,2026-03-07,P006,recurring,ach,processor_d,ledger variance,high,4,431.32,product engineering,fix queued
+INC0299,2026-03-07,P008,in_store,ach,processor_d,missing webhook,high,3,413.41,support operations,triage
+INC0300,2026-03-08,P002,recurring,wallet,processor_a,ledger variance,low,4,50.11,finance operations,triage
+INC0301,2026-03-08,P003,recurring,ach,processor_d,batch settlement delay,high,4,508.59,finance operations,fix queued
+INC0302,2026-03-08,P004,mobile,wallet,processor_c,duplicate transaction event,low,2,35.62,product engineering,fix queued
+INC0303,2026-03-08,P004,recurring,wallet,processor_b,ledger variance,low,6,152.6,finance operations,root cause found
+INC0304,2026-03-08,P006,recurring,ach,processor_d,processor latency,high,6,409.7,support operations,fix queued
+INC0305,2026-03-08,P007,online,tokenized_card,processor_b,missing webhook,low,5,121.19,product engineering,fix queued
+INC0306,2026-03-08,P007,in_app,ach,processor_d,processor latency,high,2,564.32,product engineering,monitoring
+INC0307,2026-03-08,P008,in_app,ach,processor_d,ledger variance,high,8,585.12,data insights,monitoring
+INC0308,2026-03-08,P008,in_store,ach,processor_d,batch settlement delay,high,11,452.54,product engineering,root cause found
+INC0309,2026-03-08,P008,mobile,wallet,processor_a,batch settlement delay,low,2,85.18,product engineering,triage
+INC0310,2026-03-08,P008,unattended,wallet,processor_c,batch settlement delay,medium,4,43.64,finance operations,triage
+INC0311,2026-03-09,P001,mobile,ach,processor_d,ACH return spike,high,2,247.37,finance operations,fix queued
+INC0312,2026-03-09,P002,online,card,processor_b,ACH return spike,low,33,1647.08,product engineering,triage
+INC0313,2026-03-09,P004,recurring,ach,processor_d,processor latency,high,2,417.0,support operations,fix queued
+INC0314,2026-03-09,P005,mobile,ach,processor_d,batch settlement delay,high,2,459.6,product engineering,fix queued
+INC0315,2026-03-09,P006,online,ach,processor_d,ACH return spike,high,13,973.66,data insights,monitoring
+INC0316,2026-03-09,P006,in_store,ach,processor_d,processor latency,high,10,556.26,support operations,root cause found
+INC0317,2026-03-09,P007,online,tokenized_card,processor_d,missing webhook,low,6,220.91,finance operations,fix queued
+INC0318,2026-03-09,P008,mobile,p2p,processor_a,processor latency,medium,6,44.16,product engineering,triage
+INC0319,2026-03-10,P001,in_app,p2p,processor_c,ACH return spike,medium,2,78.66,support operations,fix queued
+INC0320,2026-03-10,P001,recurring,ach,processor_d,ledger variance,high,1,382.27,finance operations,fix queued
+INC0321,2026-03-10,P002,in_store,card,processor_d,duplicate transaction event,medium,66,396.03,data insights,root cause found
+INC0322,2026-03-10,P002,mobile,ach,processor_d,duplicate transaction event,high,3,113.56,data insights,monitoring
+INC0323,2026-03-10,P002,recurring,ach,processor_d,ledger variance,high,2,301.15,product engineering,triage
+INC0324,2026-03-10,P003,unattended,card,processor_c,ledger variance,low,8,124.79,data insights,root cause found
+INC0325,2026-03-10,P004,in_app,ach,processor_d,missing webhook,high,5,521.55,data insights,triage
+INC0326,2026-03-10,P005,in_store,ach,processor_d,ledger variance,high,8,1085.86,data insights,fix queued
+INC0327,2026-03-10,P006,in_app,ach,processor_d,processor latency,high,4,246.38,support operations,root cause found
+INC0328,2026-03-10,P006,recurring,ach,processor_c,ACH return spike,low,5,447.01,support operations,monitoring
+INC0329,2026-03-10,P007,in_store,ach,processor_d,missing webhook,high,5,450.83,support operations,monitoring
+INC0330,2026-03-10,P007,unattended,wallet,processor_c,ACH return spike,medium,5,18.11,support operations,monitoring
+INC0331,2026-03-10,P008,online,card,processor_c,processor latency,low,30,1567.43,support operations,root cause found
+INC0332,2026-03-10,P008,online,ach,processor_d,ACH return spike,high,12,1367.38,product engineering,triage
+INC0333,2026-03-10,P008,mobile,card,processor_b,batch settlement delay,low,22,314.19,finance operations,root cause found
+INC0334,2026-03-11,P001,online,ach,processor_d,missing webhook,high,17,2693.76,finance operations,monitoring
+INC0335,2026-03-11,P001,in_store,tokenized_card,processor_c,batch settlement delay,medium,1,163.0,finance operations,root cause found
+INC0336,2026-03-11,P002,in_store,ach,processor_d,batch settlement delay,high,10,728.28,data insights,fix queued
+INC0337,2026-03-11,P003,in_store,p2p,processor_c,missing webhook,low,10,200.83,product engineering,root cause found
+INC0338,2026-03-11,P003,recurring,ach,processor_b,processor latency,medium,4,330.71,product engineering,monitoring
+INC0339,2026-03-11,P003,recurring,wallet,processor_a,batch settlement delay,low,1,97.16,product engineering,root cause found
+INC0340,2026-03-11,P007,in_store,card,processor_c,batch settlement delay,low,14,532.94,support operations,monitoring
+INC0341,2026-03-11,P007,mobile,ach,processor_d,duplicate transaction event,high,3,265.96,data insights,monitoring
+INC0342,2026-03-12,P004,unattended,wallet,processor_b,batch settlement delay,medium,2,21.91,support operations,fix queued
+INC0343,2026-03-12,P005,in_store,card,processor_d,batch settlement delay,low,43,1350.6,support operations,triage
+INC0344,2026-03-12,P005,mobile,ach,processor_a,ledger variance,medium,8,374.53,support operations,root cause found
+INC0345,2026-03-13,P001,in_app,p2p,processor_a,ledger variance,medium,4,106.35,data insights,fix queued
+INC0346,2026-03-13,P001,mobile,tokenized_card,processor_a,ledger variance,low,4,38.68,support operations,fix queued
+INC0347,2026-03-13,P004,in_store,p2p,processor_b,batch settlement delay,medium,6,78.47,data insights,triage
+INC0348,2026-03-13,P006,online,wallet,processor_c,processor latency,low,17,309.89,product engineering,root cause found
+INC0349,2026-03-13,P006,in_store,card,processor_c,duplicate transaction event,medium,25,395.79,finance operations,root cause found
+INC0350,2026-03-13,P008,online,card,processor_c,missing webhook,low,34,844.59,data insights,triage
+INC0351,2026-03-14,P001,recurring,card,processor_b,ACH return spike,low,4,252.54,support operations,triage
+INC0352,2026-03-14,P003,in_store,ach,processor_a,ACH return spike,low,13,638.69,support operations,fix queued
+INC0353,2026-03-14,P003,in_store,wallet,processor_a,ACH return spike,low,4,122.7,support operations,monitoring
+INC0354,2026-03-15,P003,in_store,p2p,processor_b,missing webhook,low,3,103.95,finance operations,root cause found
+INC0355,2026-03-15,P003,unattended,card,processor_d,processor latency,low,14,193.67,finance operations,monitoring
+INC0356,2026-03-15,P007,mobile,wallet,processor_a,missing webhook,low,2,39.31,finance operations,triage
+INC0357,2026-03-15,P008,in_store,wallet,processor_a,ACH return spike,low,4,104.48,data insights,monitoring
+INC0358,2026-03-16,P002,mobile,card,processor_c,batch settlement delay,low,26,415.3,product engineering,triage
+INC0359,2026-03-16,P004,in_app,ach,processor_b,duplicate transaction event,medium,8,627.06,support operations,root cause found
+INC0360,2026-03-16,P005,unattended,wallet,processor_a,ledger variance,medium,4,34.86,data insights,triage
+INC0361,2026-03-16,P006,online,card,processor_b,ledger variance,medium,48,1081.51,support operations,root cause found
+INC0362,2026-03-16,P006,mobile,tokenized_card,processor_b,processor latency,low,2,110.48,data insights,triage
+INC0363,2026-03-17,P001,online,tokenized_card,processor_d,duplicate transaction event,low,6,382.92,finance operations,fix queued
+INC0364,2026-03-17,P004,online,tokenized_card,processor_a,duplicate transaction event,medium,5,155.35,product engineering,monitoring
+INC0365,2026-03-17,P004,in_app,ach,processor_c,ledger variance,medium,8,316.34,product engineering,triage
+INC0366,2026-03-17,P005,online,tokenized_card,processor_a,ACH return spike,medium,9,141.95,data insights,root cause found
+INC0367,2026-03-17,P005,in_app,card,processor_a,missing webhook,low,18,1567.36,product engineering,monitoring
+INC0368,2026-03-17,P007,in_app,wallet,processor_b,missing webhook,medium,6,105.77,support operations,root cause found
+INC0369,2026-03-18,P001,mobile,ach,processor_c,missing webhook,medium,3,131.6,product engineering,monitoring
+INC0370,2026-03-18,P001,mobile,tokenized_card,processor_a,missing webhook,low,2,78.27,finance operations,monitoring
+INC0371,2026-03-18,P003,online,wallet,processor_a,missing webhook,medium,22,582.63,finance operations,root cause found
+INC0372,2026-03-18,P005,mobile,tokenized_card,processor_a,processor latency,low,4,87.43,data insights,root cause found
+INC0373,2026-03-18,P008,mobile,p2p,processor_b,processor latency,medium,4,54.32,product engineering,triage
+INC0374,2026-03-18,P008,recurring,tokenized_card,processor_b,ACH return spike,medium,1,62.59,finance operations,monitoring
+INC0375,2026-03-19,P003,mobile,wallet,processor_d,duplicate transaction event,medium,2,57.78,finance operations,fix queued
+INC0376,2026-03-19,P007,recurring,tokenized_card,processor_a,missing webhook,medium,4,66.84,finance operations,triage
+INC0377,2026-03-19,P008,in_store,p2p,processor_b,missing webhook,low,7,127.23,finance operations,triage
+INC0378,2026-03-20,P001,in_store,card,processor_c,ledger variance,low,19,1162.3,data insights,fix queued
+INC0379,2026-03-20,P002,in_store,ach,processor_b,ledger variance,medium,13,513.04,product engineering,triage
+INC0380,2026-03-20,P003,in_app,wallet,processor_b,batch settlement delay,low,10,121.98,support operations,triage
+INC0381,2026-03-20,P007,mobile,tokenized_card,processor_a,ledger variance,low,3,155.13,data insights,triage
+INC0382,2026-03-20,P008,mobile,card,processor_d,ledger variance,low,8,336.95,support operations,triage
+INC0383,2026-03-21,P001,in_store,card,processor_c,batch settlement delay,low,35,477.71,data insights,triage
+INC0384,2026-03-21,P002,mobile,p2p,processor_b,duplicate transaction event,low,3,46.76,finance operations,monitoring
+INC0385,2026-03-21,P003,online,tokenized_card,processor_c,processor latency,low,5,144.75,support operations,fix queued
+INC0386,2026-03-21,P003,in_app,p2p,processor_a,batch settlement delay,low,4,102.61,product engineering,triage
+INC0387,2026-03-21,P004,recurring,wallet,processor_a,processor latency,low,4,139.58,finance operations,root cause found
+INC0388,2026-03-21,P006,online,tokenized_card,processor_b,batch settlement delay,medium,5,206.45,data insights,monitoring
+INC0389,2026-03-21,P007,in_app,p2p,processor_c,processor latency,low,2,110.3,support operations,monitoring
+INC0390,2026-03-21,P008,in_app,tokenized_card,processor_b,ACH return spike,low,5,196.28,support operations,triage
+INC0391,2026-03-22,P001,in_store,card,processor_a,batch settlement delay,low,53,523.0,data insights,fix queued
+INC0392,2026-03-22,P005,unattended,wallet,processor_b,ledger variance,medium,3,49.24,data insights,monitoring
+INC0393,2026-03-23,P001,online,tokenized_card,processor_a,batch settlement delay,medium,2,102.15,support operations,fix queued
+INC0394,2026-03-23,P002,online,p2p,processor_b,processor latency,medium,11,228.12,product engineering,root cause found
+INC0395,2026-03-23,P002,in_app,tokenized_card,processor_c,batch settlement delay,low,3,231.16,finance operations,fix queued
+INC0396,2026-03-24,P001,mobile,tokenized_card,processor_c,ledger variance,low,3,143.39,data insights,monitoring
+INC0397,2026-03-24,P001,recurring,tokenized_card,processor_c,missing webhook,medium,4,121.05,finance operations,monitoring
+INC0398,2026-03-24,P003,in_app,ach,processor_d,ACH return spike,low,13,380.35,data insights,monitoring
+INC0399,2026-03-24,P005,mobile,card,processor_a,ledger variance,low,28,356.2,support operations,monitoring
+INC0400,2026-03-24,P005,mobile,wallet,processor_c,batch settlement delay,medium,4,125.42,product engineering,fix queued
+INC0401,2026-03-24,P005,mobile,tokenized_card,processor_c,batch settlement delay,low,5,134.51,support operations,triage
+INC0402,2026-03-25,P003,in_app,p2p,processor_d,ledger variance,medium,3,85.14,support operations,monitoring
+INC0403,2026-03-25,P004,online,wallet,processor_c,batch settlement delay,low,9,672.81,support operations,fix queued
+INC0404,2026-03-26,P004,in_store,p2p,processor_a,processor latency,medium,2,139.4,support operations,fix queued
+INC0405,2026-03-26,P008,in_app,wallet,processor_a,missing webhook,low,11,215.27,product engineering,fix queued
+INC0406,2026-03-27,P001,in_app,wallet,processor_c,batch settlement delay,low,5,291.65,support operations,triage
+INC0407,2026-03-27,P004,in_store,card,processor_a,missing webhook,medium,35,695.32,finance operations,triage
+INC0408,2026-03-27,P008,in_app,ach,processor_c,ACH return spike,low,8,533.34,product engineering,fix queued
+INC0409,2026-03-27,P008,mobile,tokenized_card,processor_b,batch settlement delay,low,4,83.98,support operations,monitoring
+INC0410,2026-03-28,P005,in_store,ach,processor_d,missing webhook,low,9,313.8,data insights,root cause found
+INC0411,2026-03-28,P006,online,p2p,processor_a,ledger variance,low,3,185.35,support operations,fix queued
+INC0412,2026-03-28,P006,in_store,card,processor_a,batch settlement delay,low,46,1207.79,support operations,triage
+INC0413,2026-03-28,P007,online,ach,processor_c,missing webhook,medium,7,1017.25,support operations,monitoring
+INC0414,2026-03-29,P001,in_store,ach,processor_d,duplicate transaction event,medium,11,946.11,product engineering,fix queued
+INC0415,2026-03-29,P005,mobile,card,processor_a,batch settlement delay,medium,36,373.9,support operations,triage
+INC0416,2026-03-29,P007,online,wallet,processor_a,missing webhook,medium,3,302.44,support operations,root cause found
+INC0417,2026-03-29,P008,in_app,ach,processor_b,batch settlement delay,low,4,348.08,support operations,monitoring
+INC0418,2026-03-30,P002,mobile,p2p,processor_a,ACH return spike,low,1,36.04,product engineering,triage
+INC0419,2026-03-30,P005,online,card,processor_a,duplicate transaction event,low,80,2704.82,support operations,fix queued
+INC0420,2026-03-30,P008,online,wallet,processor_c,batch settlement delay,medium,19,557.68,support operations,triage
+INC0421,2026-03-30,P008,in_app,card,processor_a,ledger variance,low,44,1355.69,support operations,fix queued
+INC0422,2026-03-30,P008,in_store,wallet,processor_b,processor latency,low,7,67.09,product engineering,fix queued
+INC0423,2026-03-30,P008,unattended,tokenized_card,processor_c,ACH return spike,low,1,39.44,support operations,root cause found
+INC0424,2026-03-30,P008,recurring,card,processor_b,ACH return spike,low,2,73.08,support operations,root cause found
+INC0425,2026-03-31,P001,in_app,wallet,processor_b,ledger variance,low,3,102.73,support operations,root cause found
+INC0426,2026-03-31,P001,unattended,tokenized_card,processor_d,ledger variance,medium,4,43.38,product engineering,monitoring
+INC0427,2026-03-31,P002,unattended,tokenized_card,processor_d,processor latency,medium,4,35.58,support operations,monitoring
+INC0428,2026-03-31,P004,unattended,wallet,processor_b,batch settlement delay,low,3,63.41,product engineering,monitoring
+INC0429,2026-04-01,P003,online,ach,processor_c,missing webhook,medium,21,2547.7,product engineering,root cause found
+INC0430,2026-04-01,P003,in_app,p2p,processor_b,ACH return spike,medium,2,122.99,support operations,monitoring
+INC0431,2026-04-01,P006,online,card,processor_b,batch settlement delay,low,36,3359.35,support operations,root cause found
+INC0432,2026-04-01,P007,mobile,tokenized_card,processor_c,batch settlement delay,medium,4,35.24,finance operations,monitoring
+INC0433,2026-04-01,P008,mobile,wallet,processor_b,missing webhook,low,2,68.3,data insights,triage
+INC0434,2026-04-01,P008,recurring,tokenized_card,processor_b,duplicate transaction event,medium,5,93.19,support operations,monitoring
+INC0435,2026-04-02,P001,in_store,wallet,processor_c,missing webhook,medium,18,497.04,support operations,triage
+INC0436,2026-04-02,P002,unattended,card,processor_a,batch settlement delay,low,16,40.48,support operations,fix queued
+INC0437,2026-04-02,P004,mobile,ach,processor_a,batch settlement delay,medium,4,403.79,data insights,root cause found
+INC0438,2026-04-02,P007,recurring,tokenized_card,processor_c,processor latency,low,6,94.95,support operations,root cause found
+INC0439,2026-04-02,P008,online,card,processor_a,ACH return spike,medium,96,1019.28,support operations,monitoring
+INC0440,2026-04-02,P008,in_store,tokenized_card,processor_c,processor latency,medium,2,59.79,product engineering,monitoring
+INC0441,2026-04-03,P001,recurring,wallet,processor_a,duplicate transaction event,medium,3,90.93,data insights,root cause found
+INC0442,2026-04-03,P007,online,tokenized_card,processor_a,ACH return spike,low,2,204.34,finance operations,triage
+INC0443,2026-04-03,P007,mobile,tokenized_card,processor_a,processor latency,medium,3,72.65,support operations,triage
+INC0444,2026-04-04,P001,unattended,card,processor_a,batch settlement delay,medium,6,83.43,product engineering,root cause found
+INC0445,2026-04-04,P002,recurring,wallet,processor_b,ledger variance,medium,2,71.66,product engineering,fix queued
+INC0446,2026-04-04,P003,unattended,wallet,processor_b,processor latency,medium,3,52.5,support operations,fix queued
+INC0447,2026-04-04,P003,recurring,wallet,processor_b,ledger variance,medium,5,50.12,data insights,fix queued
+INC0448,2026-04-04,P004,online,card,processor_a,duplicate transaction event,low,73,1732.48,data insights,fix queued
+INC0449,2026-04-04,P007,in_store,card,processor_a,batch settlement delay,medium,37,503.97,product engineering,triage
+INC0450,2026-04-04,P007,unattended,tokenized_card,processor_b,batch settlement delay,medium,3,70.37,finance operations,monitoring
+INC0451,2026-04-04,P008,online,wallet,processor_b,ledger variance,medium,12,825.3,data insights,triage
+INC0452,2026-04-04,P008,recurring,wallet,processor_b,duplicate transaction event,medium,3,61.46,finance operations,fix queued
+INC0453,2026-04-05,P004,recurring,wallet,processor_b,processor latency,medium,5,136.49,data insights,fix queued
+INC0454,2026-04-05,P005,in_app,p2p,processor_b,batch settlement delay,medium,2,53.44,finance operations,triage
+INC0455,2026-04-05,P005,unattended,tokenized_card,processor_b,duplicate transaction event,medium,1,36.02,support operations,triage
+INC0456,2026-04-05,P006,online,card,processor_a,batch settlement delay,medium,50,2454.57,product engineering,fix queued
+INC0457,2026-04-05,P006,in_store,ach,processor_b,missing webhook,low,11,498.84,finance operations,triage
+INC0458,2026-04-06,P001,in_app,p2p,processor_a,processor latency,medium,7,43.69,support operations,root cause found
+INC0459,2026-04-07,P001,unattended,card,processor_a,batch settlement delay,medium,10,184.42,product engineering,monitoring
+INC0460,2026-04-07,P002,mobile,tokenized_card,processor_a,duplicate transaction event,medium,4,134.81,support operations,monitoring
+INC0461,2026-04-07,P005,in_store,tokenized_card,processor_a,ledger variance,low,5,107.66,data insights,triage
+INC0462,2026-04-07,P007,mobile,ach,processor_c,batch settlement delay,low,2,220.6,product engineering,triage
+INC0463,2026-04-07,P008,mobile,ach,processor_a,duplicate transaction event,medium,2,164.13,support operations,triage
+INC0464,2026-04-07,P008,unattended,tokenized_card,processor_d,processor latency,low,5,67.5,data insights,triage
+INC0465,2026-04-08,P002,in_app,tokenized_card,processor_d,processor latency,low,1,110.75,support operations,root cause found
+INC0466,2026-04-08,P003,online,tokenized_card,processor_b,duplicate transaction event,low,4,264.55,support operations,fix queued
+INC0467,2026-04-08,P003,in_store,ach,processor_c,ledger variance,low,5,650.32,data insights,triage
+INC0468,2026-04-08,P006,in_app,ach,processor_b,duplicate transaction event,low,7,327.71,finance operations,triage
+INC0469,2026-04-08,P007,in_store,card,processor_b,missing webhook,medium,37,389.36,support operations,fix queued
+INC0470,2026-04-08,P008,mobile,tokenized_card,processor_b,processor latency,low,2,106.43,support operations,monitoring
+INC0471,2026-04-09,P001,recurring,card,processor_a,ledger variance,low,12,621.73,finance operations,monitoring
+INC0472,2026-04-09,P003,unattended,tokenized_card,processor_a,batch settlement delay,medium,2,45.32,product engineering,monitoring
+INC0473,2026-04-09,P006,in_app,wallet,processor_b,processor latency,low,10,327.42,product engineering,triage
+INC0474,2026-04-10,P002,online,tokenized_card,processor_b,ACH return spike,medium,4,357.31,support operations,fix queued
+INC0475,2026-04-10,P004,mobile,card,processor_b,missing webhook,low,23,158.69,support operations,triage
+INC0476,2026-04-10,P004,recurring,card,processor_c,processor latency,medium,7,259.29,finance operations,root cause found
+INC0477,2026-04-10,P005,in_store,card,processor_d,ACH return spike,medium,75,1179.5,finance operations,root cause found
+INC0478,2026-04-10,P006,online,card,processor_b,duplicate transaction event,medium,22,2101.5,data insights,monitoring
+INC0479,2026-04-10,P006,unattended,tokenized_card,processor_a,duplicate transaction event,low,1,45.28,product engineering,triage
+INC0480,2026-04-10,P007,in_app,p2p,processor_b,batch settlement delay,low,3,99.33,data insights,monitoring
+INC0481,2026-04-11,P002,online,ach,processor_b,processor latency,medium,8,400.12,support operations,monitoring
+INC0482,2026-04-11,P004,online,wallet,processor_b,duplicate transaction event,low,16,328.44,support operations,root cause found
+INC0483,2026-04-11,P008,online,ach,processor_c,duplicate transaction event,low,4,1059.17,finance operations,monitoring
+INC0484,2026-04-12,P001,mobile,card,processor_b,missing webhook,low,14,464.83,finance operations,monitoring
+INC0485,2026-04-12,P002,in_app,tokenized_card,processor_d,ledger variance,low,4,102.42,product engineering,monitoring
+INC0486,2026-04-12,P004,recurring,card,processor_c,missing webhook,medium,10,196.9,support operations,monitoring
+INC0487,2026-04-12,P005,online,card,processor_c,duplicate transaction event,low,67,4411.04,support operations,triage
+INC0488,2026-04-12,P005,online,p2p,processor_c,duplicate transaction event,low,5,143.41,finance operations,monitoring
+INC0489,2026-04-12,P006,in_app,p2p,processor_a,ACH return spike,low,3,69.23,support operations,monitoring
+INC0490,2026-04-12,P007,mobile,tokenized_card,processor_d,duplicate transaction event,low,2,129.08,data insights,triage
+INC0491,2026-04-13,P001,in_store,wallet,processor_a,ACH return spike,medium,9,134.68,product engineering,triage
+INC0492,2026-04-13,P001,mobile,tokenized_card,processor_b,duplicate transaction event,low,3,87.57,support operations,triage
+INC0493,2026-04-13,P001,recurring,tokenized_card,processor_a,duplicate transaction event,medium,2,58.81,support operations,triage
+INC0494,2026-04-13,P002,in_app,wallet,processor_a,ledger variance,medium,8,124.73,finance operations,fix queued
+INC0495,2026-04-13,P004,in_store,p2p,processor_a,missing webhook,medium,5,55.82,data insights,root cause found
+INC0496,2026-04-14,P002,online,card,processor_b,processor latency,low,23,2468.5,product engineering,triage
+INC0497,2026-04-14,P002,online,p2p,processor_a,missing webhook,low,5,127.21,data insights,root cause found
+INC0498,2026-04-15,P001,online,card,processor_b,duplicate transaction event,medium,85,4020.65,data insights,triage
+INC0499,2026-04-15,P001,in_app,tokenized_card,processor_d,processor latency,medium,6,186.14,product engineering,triage
+INC0500,2026-04-15,P002,recurring,card,processor_a,missing webhook,low,7,403.01,finance operations,monitoring
+INC0501,2026-04-15,P003,online,ach,processor_d,batch settlement delay,medium,24,2114.89,support operations,triage
+INC0502,2026-04-15,P006,recurring,tokenized_card,processor_b,processor latency,medium,3,191.95,finance operations,triage
+INC0503,2026-04-15,P007,mobile,p2p,processor_a,ledger variance,medium,3,34.95,support operations,triage
+INC0504,2026-04-15,P008,online,ach,processor_d,ledger variance,medium,8,979.65,finance operations,monitoring
+INC0505,2026-04-15,P008,in_store,card,processor_b,batch settlement delay,low,51,1461.49,product engineering,root cause found
+INC0506,2026-04-15,P008,recurring,ach,processor_a,batch settlement delay,low,3,468.23,data insights,fix queued
+INC0507,2026-04-16,P002,mobile,tokenized_card,processor_c,batch settlement delay,medium,5,129.75,support operations,root cause found
+INC0508,2026-04-16,P005,in_app,ach,processor_d,processor latency,medium,7,719.78,finance operations,monitoring
+INC0509,2026-04-16,P007,in_store,tokenized_card,processor_d,ledger variance,medium,4,155.27,product engineering,root cause found
+INC0510,2026-04-17,P001,online,tokenized_card,processor_a,ledger variance,low,4,256.09,support operations,triage
+INC0511,2026-04-17,P002,mobile,card,processor_a,duplicate transaction event,medium,30,498.73,support operations,fix queued
+INC0512,2026-04-17,P002,unattended,wallet,processor_c,ledger variance,low,5,48.34,support operations,triage
+INC0513,2026-04-17,P005,mobile,wallet,processor_a,missing webhook,medium,8,196.57,data insights,triage
+INC0514,2026-04-18,P001,online,p2p,processor_d,batch settlement delay,medium,12,210.68,support operations,fix queued
+INC0515,2026-04-18,P001,mobile,card,processor_d,missing webhook,medium,25,824.54,support operations,root cause found
+INC0516,2026-04-19,P001,unattended,card,processor_d,missing webhook,medium,5,167.52,product engineering,triage
+INC0517,2026-04-19,P003,online,wallet,processor_c,missing webhook,low,23,481.78,support operations,triage
+INC0518,2026-04-19,P004,in_store,wallet,processor_a,batch settlement delay,medium,9,192.51,product engineering,fix queued
+INC0519,2026-04-19,P006,online,ach,processor_c,batch settlement delay,medium,3,772.57,support operations,monitoring
+INC0520,2026-04-19,P006,recurring,ach,processor_d,ledger variance,medium,4,191.68,product engineering,triage
+INC0521,2026-04-19,P007,mobile,wallet,processor_b,duplicate transaction event,medium,1,94.97,support operations,monitoring
+INC0522,2026-04-20,P004,recurring,wallet,processor_b,batch settlement delay,low,6,115.64,finance operations,fix queued
+INC0523,2026-04-20,P005,in_app,p2p,processor_c,ledger variance,medium,5,69.67,data insights,fix queued
+INC0524,2026-04-20,P005,in_store,tokenized_card,processor_c,batch settlement delay,low,3,76.69,data insights,root cause found
+INC0525,2026-04-20,P005,mobile,tokenized_card,processor_c,processor latency,low,4,64.34,product engineering,triage
+INC0526,2026-04-20,P006,online,card,processor_b,ACH return spike,medium,38,3249.07,data insights,root cause found
+INC0527,2026-04-20,P007,online,wallet,processor_a,ledger variance,low,8,320.28,data insights,monitoring
+INC0528,2026-04-21,P002,recurring,wallet,processor_a,missing webhook,low,2,189.56,data insights,root cause found
+INC0529,2026-04-21,P005,recurring,wallet,processor_c,processor latency,low,3,67.08,product engineering,fix queued
+INC0530,2026-04-21,P006,in_app,wallet,processor_b,missing webhook,medium,8,136.1,product engineering,monitoring
+INC0531,2026-04-21,P006,in_store,p2p,processor_c,batch settlement delay,medium,7,30.27,support operations,root cause found
+INC0532,2026-04-22,P001,mobile,ach,processor_b,missing webhook,low,3,554.12,finance operations,root cause found
+INC0533,2026-04-22,P001,mobile,p2p,processor_b,processor latency,medium,3,61.75,product engineering,fix queued
+INC0534,2026-04-22,P002,mobile,tokenized_card,processor_a,missing webhook,medium,5,172.28,data insights,root cause found
+INC0535,2026-04-22,P002,recurring,tokenized_card,processor_c,ACH return spike,low,6,128.64,product engineering,monitoring
+INC0536,2026-04-22,P007,mobile,card,processor_a,duplicate transaction event,low,9,482.5,data insights,fix queued
+INC0537,2026-04-22,P008,online,p2p,processor_c,duplicate transaction event,medium,10,352.63,data insights,root cause found
+INC0538,2026-04-23,P001,in_store,p2p,processor_a,batch settlement delay,medium,4,39.7,data insights,root cause found
+INC0539,2026-04-23,P002,unattended,tokenized_card,processor_b,duplicate transaction event,medium,3,74.95,product engineering,root cause found
+INC0540,2026-04-23,P003,recurring,tokenized_card,processor_a,ledger variance,low,5,169.15,support operations,fix queued
+INC0541,2026-04-23,P004,in_app,wallet,processor_b,ACH return spike,medium,10,283.94,data insights,fix queued
+INC0542,2026-04-23,P005,mobile,tokenized_card,processor_c,missing webhook,low,2,124.31,support operations,fix queued
+INC0543,2026-04-23,P007,in_store,card,processor_c,ACH return spike,low,19,597.11,support operations,monitoring
+INC0544,2026-04-23,P007,recurring,card,processor_c,ACH return spike,medium,9,146.7,finance operations,fix queued
+INC0545,2026-04-24,P002,online,p2p,processor_d,processor latency,medium,8,299.8,finance operations,monitoring
+INC0546,2026-04-24,P003,unattended,card,processor_c,ACH return spike,low,18,119.09,data insights,triage
+INC0547,2026-04-24,P004,recurring,ach,processor_a,ACH return spike,medium,5,427.88,product engineering,root cause found
+INC0548,2026-04-24,P004,recurring,wallet,processor_b,duplicate transaction event,medium,2,220.67,finance operations,monitoring
+INC0549,2026-04-24,P005,in_app,tokenized_card,processor_b,missing webhook,low,5,144.45,finance operations,root cause found
+INC0550,2026-04-24,P007,mobile,p2p,processor_a,missing webhook,medium,3,24.8,support operations,monitoring
+INC0551,2026-04-25,P001,recurring,wallet,processor_a,missing webhook,low,2,41.8,finance operations,triage
+INC0552,2026-04-25,P002,mobile,card,processor_a,processor latency,low,15,442.17,product engineering,fix queued
+INC0553,2026-04-25,P002,mobile,wallet,processor_c,missing webhook,medium,3,116.09,finance operations,monitoring
+INC0554,2026-04-25,P004,online,ach,processor_b,ACH return spike,medium,6,1344.48,product engineering,root cause found
+INC0555,2026-04-25,P004,in_app,ach,processor_a,ACH return spike,medium,5,254.76,support operations,triage
+INC0556,2026-04-25,P007,online,card,processor_d,processor latency,medium,33,1561.4,support operations,fix queued
+INC0557,2026-04-25,P007,in_app,card,processor_a,processor latency,medium,7,415.92,support operations,triage
+INC0558,2026-04-26,P001,online,tokenized_card,processor_d,ledger variance,low,4,362.28,finance operations,root cause found
+INC0559,2026-04-26,P003,online,card,processor_c,ledger variance,medium,86,1627.08,support operations,triage
+INC0560,2026-04-26,P006,in_app,tokenized_card,processor_c,processor latency,low,2,171.04,data insights,root cause found
+INC0561,2026-04-26,P007,recurring,card,processor_c,ACH return spike,low,6,212.42,data insights,root cause found
+INC0562,2026-04-27,P002,recurring,card,processor_b,missing webhook,low,11,218.62,finance operations,root cause found
+INC0563,2026-04-28,P003,online,card,processor_a,batch settlement delay,medium,115,4343.55,product engineering,monitoring
+INC0564,2026-04-29,P002,recurring,ach,processor_c,processor latency,low,2,527.97,finance operations,monitoring
+INC0565,2026-04-29,P004,mobile,ach,processor_c,processor latency,medium,6,306.52,finance operations,monitoring
+INC0566,2026-04-29,P006,online,ach,processor_a,ledger variance,medium,14,1332.94,product engineering,root cause found
+INC0567,2026-04-30,P001,online,wallet,processor_b,ledger variance,medium,28,578.55,product engineering,triage
+INC0568,2026-04-30,P006,in_store,wallet,processor_a,duplicate transaction event,low,4,62.69,data insights,root cause found
+INC0569,2026-04-30,P006,unattended,card,processor_d,ledger variance,medium,7,46.17,data insights,monitoring

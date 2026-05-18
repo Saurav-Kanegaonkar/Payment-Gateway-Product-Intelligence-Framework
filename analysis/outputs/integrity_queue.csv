@@ -1,0 +1,25 @@
+issue_type,owner,incident_count,high_severity_count,estimated_volume_at_risk,risk_score
+processor latency,support operations,32,5,9512.72,218.1
+duplicate transaction event,data insights,30,5,20822.82,210.1
+ACH return spike,support operations,30,4,7657.43,192.0
+missing webhook,data insights,23,5,9926.17,182.1
+ACH return spike,product engineering,24,4,10251.82,168.1
+batch settlement delay,product engineering,28,3,16686.7,166.1
+processor latency,product engineering,31,2,9694.07,160.1
+batch settlement delay,support operations,35,1,18468.88,158.1
+ledger variance,data insights,27,2,10723.27,144.1
+batch settlement delay,finance operations,21,3,4630.45,138.0
+batch settlement delay,data insights,24,2,11968.53,132.1
+missing webhook,finance operations,28,1,11063.76,130.1
+duplicate transaction event,product engineering,19,3,6674.98,130.0
+missing webhook,support operations,18,3,5781.22,126.0
+ledger variance,product engineering,22,2,8382.66,124.0
+duplicate transaction event,finance operations,25,1,7698.39,118.0
+missing webhook,product engineering,19,1,10042.61,94.1
+ledger variance,finance operations,19,1,7050.22,94.0
+duplicate transaction event,support operations,23,0,14117.13,92.1
+ACH return spike,finance operations,18,1,4140.43,90.0
+ledger variance,support operations,22,0,9151.66,88.1
+ACH return spike,data insights,17,1,8002.47,86.0
+processor latency,data insights,16,1,6104.09,82.0
+processor latency,finance operations,18,0,5136.43,72.0

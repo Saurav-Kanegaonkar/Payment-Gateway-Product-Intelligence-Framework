@@ -1,0 +1,45 @@
+{
+  "total_volume": 75078912.87,
+  "total_transactions": 1230143,
+  "net_revenue": 424804.97,
+  "authorization_rate": 0.9184,
+  "data_quality_score": 94.4,
+  "ach_return_rate": 0.019,
+  "open_incidents": 569,
+  "high_severity_incidents": 51,
+  "forecast_growth_rate": 0.01,
+  "top_opportunity": {
+    "channel": "unattended",
+    "payment_method": "card",
+    "transaction_count": 47701,
+    "gross_volume": 872744.63,
+    "authorization_rate": 0.9033,
+    "data_quality_score": 94.5,
+    "reconciliation_variance_abs": 524.25,
+    "settlement_delay_hours": 28.0,
+    "auth_gap_bps": 316.9,
+    "estimated_revenue_upside": 94.26,
+    "priority_score": 141.5
+  },
+  "top_integrity_risk": {
+    "issue_type": "processor latency",
+    "owner": "support operations",
+    "incident_count": 32,
+    "high_severity_count": 5,
+    "estimated_volume_at_risk": 9512.72,
+    "risk_score": 218.1
+  },
+  "top_experiment": {
+    "experiment_id": "EXP001",
+    "product_area": "smart routing",
+    "hypothesis": "Route selected card-not-present transactions away from high-latency processors to improve authorization rate.",
+    "primary_metric": "authorization_rate",
+    "eligible_volume": 18400000,
+    "expected_lift_bps": 42,
+    "confidence": 0.78,
+    "readiness": "ready",
+    "okr_link": "Increase approved gateway volume",
+    "annualized_revenue_upside": 5564.16,
+    "priority_score": 4.3
+  }
+}

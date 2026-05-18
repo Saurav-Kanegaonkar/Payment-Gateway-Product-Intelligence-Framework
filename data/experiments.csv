@@ -1,0 +1,6 @@
+experiment_id,product_area,hypothesis,primary_metric,eligible_volume,expected_lift_bps,confidence,readiness,okr_link,annualized_revenue_upside,priority_score
+EXP001,smart routing,Route selected card-not-present transactions away from high-latency processors to improve authorization rate.,authorization_rate,18400000,42,0.78,ready,Increase approved gateway volume,5564.16,4.3
+EXP005,webhook resiliency,Retry backoff and payload validation reduce missing webhook incidents for transaction lifecycle events.,data_quality_score,12400000,37,0.74,ready,Raise trusted reporting coverage,3303.36,2.4
+EXP003,recurring billing,Token refresh prompts recover failed recurring card payments before merchant support tickets open.,capture_rate,7600000,55,0.66,ready,Grow retained processing volume,3009.6,2.0
+EXP002,ACH reliability,Pre-settlement return risk checks reduce ACH returns without lowering successful debit volume.,return_rate,9200000,31,0.71,needs event QA,Improve settlement trust,2053.44,1.0
+EXP004,reporting self service,Partner-facing KPI definitions reduce ad hoc performance inquiries and repeated manual pulls.,support_inquiry_rate,5100000,24,0.62,instrumentation gap,Scale product stakeholder transparency,881.28,0.3
